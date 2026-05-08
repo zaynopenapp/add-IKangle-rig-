@@ -1,0 +1,2424 @@
+<ik_custom>
+
+  <rig_dog>
+    <bone_root type="bone_object" guid="root_bone"/>
+    <bone type="bone_object" guid="F4AB21CF238FA69D9D9984D4F2DE3A22">
+      <name>
+        <string>target BL</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="525BCCAF238FCD0E9D998C6DF2DE030D" type="vector">
+          <lhs>
+            <vector>
+              <x>-3.6742477417</x>
+              <y>-3.1923034191</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <angle value="-3.784562"/>
+      </angle>
+      <scalelx>
+        <real value="1.0063317819"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="65E6A0D6238F02A09D998C2CF2DE070E">
+      <name>
+        <string>pole BL</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="149581C0238FA6A69D9985F8F2DE30E9" type="vector">
+          <lhs>
+            <vector>
+              <x>-0.3470560908</x>
+              <y>-0.7124425173</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+              <x>-0.7802232504</x>
+              <y>1.5768883228</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="149581C0238FA6A69D9985F8F2DE30E9" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.3470560908</x>
+                  <y>-0.7124425173</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="525BCCAF238FCD0E9D998C6DF2DE030D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-3.6742477417</x>
+                  <y>-3.1923034191</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="0968E8A8238FF5DD9D9988E0F2DE317F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="2BEDB861238F096A9D998E58F2DE12F0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="62F89F83238FD56E9D998701F2DE1D32" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="07F18A4AF0E026897969FE184C4C6C2A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="63EA7728238F37929D998CA7F2DE339F" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="BE21FB0B238F8C9A9D998216F2DE0D33" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="82A2D5C1238FFCF89D998803F2DE1FF9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="149581C0238FA6A69D9985F8F2DE30E9" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.3470560908</x>
+                  <y>-0.7124425173</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="525BCCAF238FCD0E9D998C6DF2DE030D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-3.6742477417</x>
+                  <y>-3.1923034191</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="0968E8A8238FF5DD9D9988E0F2DE317F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="2BEDB861238F096A9D998E58F2DE12F0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="62F89F83238FD56E9D998701F2DE1D32" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="07F18A4AF0E026897969FE184C4C6C2A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="63EA7728238F37929D998CA7F2DE339F" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="BE21FB0B238F8C9A9D998216F2DE0D33" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="82A2D5C1238FFCF89D998803F2DE1FF9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="55BDDD6BF3501716804FB48686CA6FF2">
+      <name>
+        <string>Object cat</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+          <x>-0.7802232504</x>
+          <y>1.5768883228</y>
+        </vector>
+      </origin>
+      <angle>
+        <angle value="80.616524"/>
+      </angle>
+      <scalelx>
+        <real value="1.0000000000"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="B3DD2755FFFF971EFFFFB406FFFF6D3E">
+      <name>
+        <string>pole BR</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="C2AE0643FFFF3318FFFFBDD2FFFF5AD9" type="vector">
+          <lhs>
+            <vector>
+              <x>0.2170959115</x>
+              <y>-0.7196197510</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+              <x>-0.7802232504</x>
+              <y>1.5768883228</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="C2AE0643FFFF3318FFFFBDD2FFFF5AD9" type="vector">
+              <lhs>
+                <vector>
+                  <x>0.2170959115</x>
+                  <y>-0.7196197510</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="84604B2CFFFF58B0FFFFB447FFFF693D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0176423956</x>
+                  <y>-3.0813012123</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="DF536F2BFFFF6063FFFFB0CAFFFF5B4F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FDD63FE2FFFF9CD4FFFFB672FFFF78C0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="B4C31800FFFF40D0FFFFBF2BFFFF7702" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="D1CA0DC92C90B3371B0FC632416D061A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="B5D1F0ABFFFFA22CFFFFB48DFFFF59AF" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="681A7C88FFFF1924FFFFBA3CFFFF6703" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="54995242FFFF6946FFFFB029FFFF75C9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="C2AE0643FFFF3318FFFFBDD2FFFF5AD9" type="vector">
+              <lhs>
+                <vector>
+                  <x>0.2170959115</x>
+                  <y>-0.7196197510</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="84604B2CFFFF58B0FFFFB447FFFF693D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0176423956</x>
+                  <y>-3.0813012123</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="DF536F2BFFFF6063FFFFB0CAFFFF5B4F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FDD63FE2FFFF9CD4FFFFB672FFFF78C0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="B4C31800FFFF40D0FFFFBF2BFFFF7702" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="D1CA0DC92C90B3371B0FC632416D061A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="B5D1F0ABFFFFA22CFFFFB48DFFFF59AF" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="681A7C88FFFF1924FFFFBA3CFFFF6703" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="54995242FFFF6946FFFFB029FFFF75C9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="2290A64CFFFF3323FFFFBCFEFFFF5012">
+      <name>
+        <string>target BR</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="84604B2CFFFF58B0FFFFB447FFFF693D" type="vector">
+          <lhs>
+            <vector>
+              <x>-0.0176423956</x>
+              <y>-3.0813012123</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <angle value="-3.784562"/>
+      </angle>
+      <scalelx>
+        <real value="1.0063317819"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="86C39704A6512597331EE44B25CC6B86">
+      <name>
+        <string>target leg FR</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="F774994EFFFF3484FFFFB865FFFF4A8F" type="vector">
+          <lhs>
+            <vector>
+              <x>4.7102217674</x>
+              <y>-2.9160466194</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <angle value="-2.508824"/>
+      </angle>
+      <scalelx>
+        <real value="0.6995700290"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="480F495DA9CE793AA550310E848C701C">
+      <name>
+        <string>Body 1</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add type="vector">
+          <lhs>
+            <vector>
+              <x>0.3705301881</x>
+              <y>-0.2191848755</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+              <x>-0.7802232504</x>
+              <y>1.5768883228</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <angle value="-2.862745"/>
+      </angle>
+      <scalelx>
+        <real value="1.8867367118"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="3176ED25AC8AC865212CE13FEF44DB8C">
+      <name>
+        <string>Tail 1</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add type="vector">
+          <lhs>
+            <vector>
+              <x>-0.4325045943</x>
+              <y>-0.2959606051</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+              <x>-0.7802232504</x>
+              <y>1.5768883228</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <angle value="-162.425415"/>
+      </angle>
+      <scalelx>
+        <real value="1.9650883766"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="D9858D5A84259AF58C7860F8A67EB499">
+      <name>
+        <string>target leg FR (2)</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="A8328310DD8B8BE640993CD67C4D9590" type="vector">
+          <lhs>
+            <vector>
+              <x>2.0831580162</x>
+              <y>-3.0798990726</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <vector>
+              <x>0.0000000000</x>
+              <y>0.0000000000</y>
+            </vector>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <angle value="-2.508824"/>
+      </angle>
+      <scalelx>
+        <real value="0.6995700290"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="37A8AC73238F9F1C9D998196F2DE2C2F">
+      <name>
+        <string>leg 2 Bl</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="65E6A0D6238F02A09D998C2CF2DE070E"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.0000000000</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="149581C0238FA6A69D9985F8F2DE30E9" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.3470560908</x>
+                  <y>-0.7124425173</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="525BCCAF238FCD0E9D998C6DF2DE030D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-3.6742477417</x>
+                  <y>-3.1923034191</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="0968E8A8238FF5DD9D9988E0F2DE317F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="2BEDB861238F096A9D998E58F2DE12F0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="62F89F83238FD56E9D998701F2DE1D32" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="07F18A4AF0E026897969FE184C4C6C2A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="63EA7728238F37929D998CA7F2DE339F" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="BE21FB0B238F8C9A9D998216F2DE0D33" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="82A2D5C1238FFCF89D998803F2DE1FF9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="149581C0238FA6A69D9985F8F2DE30E9" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.3470560908</x>
+                  <y>-0.7124425173</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="525BCCAF238FCD0E9D998C6DF2DE030D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-3.6742477417</x>
+                  <y>-3.1923034191</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="0968E8A8238FF5DD9D9988E0F2DE317F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="2BEDB861238F096A9D998E58F2DE12F0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="62F89F83238FD56E9D998701F2DE1D32" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="07F18A4AF0E026897969FE184C4C6C2A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="63EA7728238F37929D998CA7F2DE339F" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="BE21FB0B238F8C9A9D998216F2DE0D33" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="82A2D5C1238FFCF89D998803F2DE1FF9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="E1932BF0FFFF0AA2FFFFB9BCFFFF461F">
+      <name>
+        <string>leg 2 BR</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="B3DD2755FFFF971EFFFFB406FFFF6D3E"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.0000000000</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="C2AE0643FFFF3318FFFFBDD2FFFF5AD9" type="vector">
+              <lhs>
+                <vector>
+                  <x>0.2170959115</x>
+                  <y>-0.7196197510</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="84604B2CFFFF58B0FFFFB447FFFF693D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0176423956</x>
+                  <y>-3.0813012123</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="DF536F2BFFFF6063FFFFB0CAFFFF5B4F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FDD63FE2FFFF9CD4FFFFB672FFFF78C0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="B4C31800FFFF40D0FFFFBF2BFFFF7702" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="D1CA0DC92C90B3371B0FC632416D061A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="B5D1F0ABFFFFA22CFFFFB48DFFFF59AF" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="681A7C88FFFF1924FFFFBA3CFFFF6703" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="54995242FFFF6946FFFFB029FFFF75C9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="C2AE0643FFFF3318FFFFBDD2FFFF5AD9" type="vector">
+              <lhs>
+                <vector>
+                  <x>0.2170959115</x>
+                  <y>-0.7196197510</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="84604B2CFFFF58B0FFFFB447FFFF693D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0176423956</x>
+                  <y>-3.0813012123</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="DF536F2BFFFF6063FFFFB0CAFFFF5B4F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FDD63FE2FFFF9CD4FFFFB672FFFF78C0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="B4C31800FFFF40D0FFFFBF2BFFFF7702" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="D1CA0DC92C90B3371B0FC632416D061A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="B5D1F0ABFFFFA22CFFFFB48DFFFF59AF" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="681A7C88FFFF1924FFFFBA3CFFFF6703" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="54995242FFFF6946FFFFB029FFFF75C9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="4279D8D30312D53A344E6B7465BC8A27">
+      <name>
+        <string>Body 2</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="480F495DA9CE793AA550310E848C701C"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.0401735306</x>
+          <y>0.0323030576</y>
+        </vector>
+      </origin>
+      <angle>
+        <angle value="10.637222"/>
+      </angle>
+      <scalelx>
+        <real value="1.4902014952"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="453F22CCAE8CC39B47F7920C507AD381">
+      <name>
+        <string>Tail 2</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="3176ED25AC8AC865212CE13FEF44DB8C"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.1000000238</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <angle value="23.977194"/>
+      </angle>
+      <scalelx>
+        <real value="1.4332773649"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="D152A79E238FAA319D998EDFF2DE2FA0">
+      <name>
+        <string>leg 3 BL</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="37A8AC73238F9F1C9D998196F2DE2C2F"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.0000000000</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="149581C0238FA6A69D9985F8F2DE30E9" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.3470560908</x>
+                  <y>-0.7124425173</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="525BCCAF238FCD0E9D998C6DF2DE030D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-3.6742477417</x>
+                  <y>-3.1923034191</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="0968E8A8238FF5DD9D9988E0F2DE317F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="2BEDB861238F096A9D998E58F2DE12F0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="62F89F83238FD56E9D998701F2DE1D32" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="07F18A4AF0E026897969FE184C4C6C2A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="63EA7728238F37929D998CA7F2DE339F" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="BE21FB0B238F8C9A9D998216F2DE0D33" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="3"/>
+          </f_bone>
+          <weight>
+            <real guid="82A2D5C1238FFCF89D998803F2DE1FF9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="149581C0238FA6A69D9985F8F2DE30E9" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.3470560908</x>
+                  <y>-0.7124425173</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="525BCCAF238FCD0E9D998C6DF2DE030D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-3.6742477417</x>
+                  <y>-3.1923034191</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="0968E8A8238FF5DD9D9988E0F2DE317F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="2BEDB861238F096A9D998E58F2DE12F0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="62F89F83238FD56E9D998701F2DE1D32" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="07F18A4AF0E026897969FE184C4C6C2A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="63EA7728238F37929D998CA7F2DE339F" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="BE21FB0B238F8C9A9D998216F2DE0D33" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="3"/>
+          </f_bone>
+          <weight>
+            <real guid="82A2D5C1238FFCF89D998803F2DE1FF9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="0769201DFFFF3F8FFFFFB6F5FFFF4590">
+      <name>
+        <string>leg 3 BR</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="E1932BF0FFFF0AA2FFFFB9BCFFFF461F"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.0000000000</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="C2AE0643FFFF3318FFFFBDD2FFFF5AD9" type="vector">
+              <lhs>
+                <vector>
+                  <x>0.2170959115</x>
+                  <y>-0.7196197510</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="84604B2CFFFF58B0FFFFB447FFFF693D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0176423956</x>
+                  <y>-3.0813012123</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="DF536F2BFFFF6063FFFFB0CAFFFF5B4F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FDD63FE2FFFF9CD4FFFFB672FFFF78C0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="B4C31800FFFF40D0FFFFBF2BFFFF7702" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="D1CA0DC92C90B3371B0FC632416D061A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="B5D1F0ABFFFFA22CFFFFB48DFFFF59AF" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="681A7C88FFFF1924FFFFBA3CFFFF6703" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="3"/>
+          </f_bone>
+          <weight>
+            <real guid="54995242FFFF6946FFFFB029FFFF75C9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="C2AE0643FFFF3318FFFFBDD2FFFF5AD9" type="vector">
+              <lhs>
+                <vector>
+                  <x>0.2170959115</x>
+                  <y>-0.7196197510</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector guid="C15F5EBF912E87AB0C175EA716568D8F">
+                  <x>-0.7802232504</x>
+                  <y>1.5768883228</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="84604B2CFFFF58B0FFFFB447FFFF693D" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0176423956</x>
+                  <y>-3.0813012123</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="DF536F2BFFFF6063FFFFB0CAFFFF5B4F" value="1.9683472877"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FDD63FE2FFFF9CD4FFFFB672FFFF78C0" value="1.5000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real guid="B4C31800FFFF40D0FFFFBF2BFFFF7702" value="2.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="D1CA0DC92C90B3371B0FC632416D061A" value="true"/>
+          </flip>
+          <joint_bone>
+            <integer guid="B5D1F0ABFFFFA22CFFFFB48DFFFF59AF" value="2"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="681A7C88FFFF1924FFFFBA3CFFFF6703" value="1"/>
+          </t_bone>
+          <f_bone>
+            <integer value="3"/>
+          </f_bone>
+          <weight>
+            <real guid="54995242FFFF6946FFFFB029FFFF75C9" value="80.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46">
+      <name>
+        <string>neck</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="4279D8D30312D53A344E6B7465BC8A27"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.1000000238</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <angle value="48.986919"/>
+      </angle>
+      <scalelx>
+        <real value="1.2103507312"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="445F53E6F709F7AD440E1FF109D3CF39">
+      <name>
+        <string>Pole FR</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="4E632702FFFF1B1FFFFFB365FFFF4326" type="vector">
+          <lhs>
+            <vector>
+              <x>-0.0687305629</x>
+              <y>-0.5665707588</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <bone_link type="vector">
+              <bone>
+                <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+              </bone>
+              <base_value>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </base_value>
+              <translate>
+                <bool value="true"/>
+              </translate>
+              <rotate>
+                <bool value="true"/>
+              </rotate>
+              <skew>
+                <bool value="true"/>
+              </skew>
+              <scale_x>
+                <bool value="true"/>
+              </scale_x>
+              <scale_y>
+                <bool value="true"/>
+              </scale_y>
+            </bone_link>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="4E632702FFFF1B1FFFFFB365FFFF4326" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0687305629</x>
+                  <y>-0.5665707588</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="F774994EFFFF3484FFFFB865FFFF4A8F" type="vector">
+              <lhs>
+                <vector>
+                  <x>4.7102217674</x>
+                  <y>-2.9160466194</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="7F0E48AAFFFF199CFFFFB7EBFFFF5CD1" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="A539CBDEFFFFCF49FFFFB735FFFF6516" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="ABFFCEA9FFFF1298FFFFBF11FFFF4519" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="8213CF84FFFFA89CFFFFBAD4FFFF54D1" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="CD07E553FFFF151DFFFFB8E2FFFF6FED" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="4BC0A41FFFFFB039FFFFB86AFFFF4183" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="4E632702FFFF1B1FFFFFB365FFFF4326" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0687305629</x>
+                  <y>-0.5665707588</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="F774994EFFFF3484FFFFB865FFFF4A8F" type="vector">
+              <lhs>
+                <vector>
+                  <x>4.7102217674</x>
+                  <y>-2.9160466194</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="7F0E48AAFFFF199CFFFFB7EBFFFF5CD1" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="A539CBDEFFFFCF49FFFFB735FFFF6516" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="ABFFCEA9FFFF1298FFFFBF11FFFF4519" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="8213CF84FFFFA89CFFFFBAD4FFFF54D1" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="CD07E553FFFF151DFFFFB8E2FFFF6FED" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="4BC0A41FFFFFB039FFFFB86AFFFF4183" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="1B1949B8D57D48CFFB689B428A611026">
+      <name>
+        <string>Pole FL</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="root_bone"/>
+      </parent>
+      <origin>
+        <add guid="11253D5CDD8BA47D409937D67C4D9C39" type="vector">
+          <lhs>
+            <vector>
+              <x>-0.5708045363</x>
+              <y>-0.5380436778</y>
+            </vector>
+          </lhs>
+          <rhs>
+            <bone_link type="vector">
+              <bone>
+                <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+              </bone>
+              <base_value>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </base_value>
+              <translate>
+                <bool value="true"/>
+              </translate>
+              <rotate>
+                <bool value="true"/>
+              </rotate>
+              <skew>
+                <bool value="true"/>
+              </skew>
+              <scale_x>
+                <bool value="true"/>
+              </scale_x>
+              <scale_y>
+                <bool value="true"/>
+              </scale_y>
+            </bone_link>
+          </rhs>
+          <scalar>
+            <real value="1.0000000000"/>
+          </scalar>
+        </add>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="11253D5CDD8BA47D409937D67C4D9C39" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.5708045363</x>
+                  <y>-0.5380436778</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="A8328310DD8B8BE640993CD67C4D9590" type="vector">
+              <lhs>
+                <vector>
+                  <x>2.0831580162</x>
+                  <y>-3.0798990726</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="204852F4DD8BA6FE409933587C4D83CE" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FA7FD180DD8B702B409933867C4DBA09" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="F4B9D4F7DD8BADFA40993BA27C4D9A06" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="DD55D5DADD8B17FE40993E677C4D8BCE" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="9241FF0DDD8BAA7F40993C517C4DB0F2" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="1486BE41DD8B0F5B40993CD97C4D9E9C" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="11253D5CDD8BA47D409937D67C4D9C39" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.5708045363</x>
+                  <y>-0.5380436778</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="A8328310DD8B8BE640993CD67C4D9590" type="vector">
+              <lhs>
+                <vector>
+                  <x>2.0831580162</x>
+                  <y>-3.0798990726</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="204852F4DD8BA6FE409933587C4D83CE" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FA7FD180DD8B702B409933867C4DBA09" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="F4B9D4F7DD8BADFA40993BA27C4D9A06" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="DD55D5DADD8B17FE40993E677C4D8BCE" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="9241FF0DDD8BAA7F40993C517C4DB0F2" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="1"/>
+          </f_bone>
+          <weight>
+            <real guid="1486BE41DD8B0F5B40993CD97C4D9E9C" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="CD3E4D728F5BEB1866B891E774D0B8E4">
+      <name>
+        <string>Head</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.1000000238</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <angle value="-23.902885"/>
+      </angle>
+      <scalelx>
+        <real value="1.8570416721"/>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="E1C112EB0182A1550D3CD817779EDCF5">
+      <name>
+        <string>leg2 FR</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="445F53E6F709F7AD440E1FF109D3CF39"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.0000000000</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="4E632702FFFF1B1FFFFFB365FFFF4326" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0687305629</x>
+                  <y>-0.5665707588</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="F774994EFFFF3484FFFFB865FFFF4A8F" type="vector">
+              <lhs>
+                <vector>
+                  <x>4.7102217674</x>
+                  <y>-2.9160466194</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="7F0E48AAFFFF199CFFFFB7EBFFFF5CD1" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="A539CBDEFFFFCF49FFFFB735FFFF6516" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="ABFFCEA9FFFF1298FFFFBF11FFFF4519" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="8213CF84FFFFA89CFFFFBAD4FFFF54D1" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="CD07E553FFFF151DFFFFB8E2FFFF6FED" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="4BC0A41FFFFFB039FFFFB86AFFFF4183" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="4E632702FFFF1B1FFFFFB365FFFF4326" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.0687305629</x>
+                  <y>-0.5665707588</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="F774994EFFFF3484FFFFB865FFFF4A8F" type="vector">
+              <lhs>
+                <vector>
+                  <x>4.7102217674</x>
+                  <y>-2.9160466194</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="7F0E48AAFFFF199CFFFFB7EBFFFF5CD1" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="A539CBDEFFFFCF49FFFFB735FFFF6516" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="ABFFCEA9FFFF1298FFFFBF11FFFF4519" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="8213CF84FFFFA89CFFFFBAD4FFFF54D1" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="CD07E553FFFF151DFFFFB8E2FFFF6FED" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="4BC0A41FFFFFB039FFFFB86AFFFF4183" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+    <bone type="bone_object" guid="BE8708B523F61E37B25A5CA4F42C03EA">
+      <name>
+        <string>leg2 FL</string>
+      </name>
+      <parent>
+        <bone_valuenode type="bone_object" guid="1B1949B8D57D48CFFB689B428A611026"/>
+      </parent>
+      <origin>
+        <vector>
+          <x>1.0000000000</x>
+          <y>0.0000000000</y>
+        </vector>
+      </origin>
+      <angle>
+        <ik type="angle">
+          <link_pole>
+            <add guid="11253D5CDD8BA47D409937D67C4D9C39" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.5708045363</x>
+                  <y>-0.5380436778</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="A8328310DD8B8BE640993CD67C4D9590" type="vector">
+              <lhs>
+                <vector>
+                  <x>2.0831580162</x>
+                  <y>-3.0798990726</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="204852F4DD8BA6FE409933587C4D83CE" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FA7FD180DD8B702B409933867C4DBA09" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="F4B9D4F7DD8BADFA40993BA27C4D9A06" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="DD55D5DADD8B17FE40993E677C4D8BCE" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="9241FF0DDD8BAA7F40993C517C4DB0F2" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="1486BE41DD8B0F5B40993CD97C4D9E9C" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </angle>
+      <scalelx>
+        <ik type="real">
+          <link_pole>
+            <add guid="11253D5CDD8BA47D409937D67C4D9C39" type="vector">
+              <lhs>
+                <vector>
+                  <x>-0.5708045363</x>
+                  <y>-0.5380436778</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <bone_link type="vector">
+                  <bone>
+                    <bone_valuenode type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+                  </bone>
+                  <base_value>
+                    <vector>
+                      <x>0.0000000000</x>
+                      <y>0.0000000000</y>
+                    </vector>
+                  </base_value>
+                  <translate>
+                    <bool value="true"/>
+                  </translate>
+                  <rotate>
+                    <bool value="true"/>
+                  </rotate>
+                  <skew>
+                    <bool value="true"/>
+                  </skew>
+                  <scale_x>
+                    <bool value="true"/>
+                  </scale_x>
+                  <scale_y>
+                    <bool value="true"/>
+                  </scale_y>
+                </bone_link>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_pole>
+          <link_target>
+            <add guid="A8328310DD8B8BE640993CD67C4D9590" type="vector">
+              <lhs>
+                <vector>
+                  <x>2.0831580162</x>
+                  <y>-3.0798990726</y>
+                </vector>
+              </lhs>
+              <rhs>
+                <vector>
+                  <x>0.0000000000</x>
+                  <y>0.0000000000</y>
+                </vector>
+              </rhs>
+              <scalar>
+                <real value="1.0000000000"/>
+              </scalar>
+            </add>
+          </link_target>
+          <length_bone1>
+            <real guid="204852F4DD8BA6FE409933587C4D83CE" value="2.4000000000"/>
+          </length_bone1>
+          <length_bone2>
+            <real guid="FA7FD180DD8B702B409933867C4DBA09" value="2.0000000000"/>
+          </length_bone2>
+          <length_bone3>
+            <real value="99.0000000000"/>
+          </length_bone3>
+          <flip>
+            <bool guid="F4B9D4F7DD8BADFA40993BA27C4D9A06" value="false"/>
+          </flip>
+          <joint_bone>
+            <integer guid="DD55D5DADD8B17FE40993E677C4D8BCE" value="1"/>
+          </joint_bone>
+          <t_bone>
+            <integer guid="9241FF0DDD8BAA7F40993C517C4DB0F2" value="2"/>
+          </t_bone>
+          <f_bone>
+            <integer value="2"/>
+          </f_bone>
+          <weight>
+            <real guid="1486BE41DD8B0F5B40993CD97C4D9E9C" value="0.0000000000"/>
+          </weight>
+        </ik>
+      </scalelx>
+      <width>
+        <real value="0.2500000000"/>
+      </width>
+      <scalex>
+        <real value="1.0000000000"/>
+      </scalex>
+      <tipwidth>
+        <real value="0.1000000000"/>
+      </tipwidth>
+      <bone_depth>
+        <real value="0.0000000000"/>
+      </bone_depth>
+      <length>
+        <real value="1.0000000000"/>
+      </length>
+    </bone>
+  </rig_dog>
+
+  <param name="rig_dog">
+       <static_list type="bone_object">
+        <entry>
+          <bone type="bone_object" guid="2290A64CFFFF3323FFFFBCFEFFFF5012"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="0769201DFFFF3F8FFFFFB6F5FFFF4590"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="E1932BF0FFFF0AA2FFFFB9BCFFFF461F"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="B3DD2755FFFF971EFFFFB406FFFF6D3E"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="F4AB21CF238FA69D9D9984D4F2DE3A22"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="D152A79E238FAA319D998EDFF2DE2FA0"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="37A8AC73238F9F1C9D998196F2DE2C2F"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="65E6A0D6238F02A09D998C2CF2DE070E"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="453F22CCAE8CC39B47F7920C507AD381"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="3176ED25AC8AC865212CE13FEF44DB8C"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="CD3E4D728F5BEB1866B891E774D0B8E4"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="590791B9FEE0D9B8F45D43E4550D6F46"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="4279D8D30312D53A344E6B7465BC8A27"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="480F495DA9CE793AA550310E848C701C"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="55BDDD6BF3501716804FB48686CA6FF2"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="D9858D5A84259AF58C7860F8A67EB499"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="BE8708B523F61E37B25A5CA4F42C03EA"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="1B1949B8D57D48CFFB689B428A611026"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="86C39704A6512597331EE44B25CC6B86"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="E1C112EB0182A1550D3CD817779EDCF5"/>
+        </entry>
+        <entry>
+          <bone type="bone_object" guid="445F53E6F709F7AD440E1FF109D3CF39"/>
+        </entry>
+      </static_list>
+    </param>
+
+  <custom_entry>
+    <ik_entry name="rig_dog" />
+  </custom_entry>
+  
+</ik_custom>

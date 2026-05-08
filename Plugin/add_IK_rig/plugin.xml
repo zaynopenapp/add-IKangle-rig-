@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <name>Add IK Rig</name>
+   <author>zainal ab.(robert.mailcat@g)</author>
+   <version>1</version>
+   <release>0.1</release>
+   <exec stdout="log" strerr="message">IK_angle_rig.py</exec>
+</plugin>
